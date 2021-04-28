@@ -1,0 +1,25 @@
+
+Sub-algo : MakeAModulo
+
+
+Input parameters :
+firstRandomNumber: integer
+secondRandomNumber: integer
+
+Output parameters:
+resultModulo: integer
+
+
+Instructions:
+resultModulo <- firstRandomNumber%secondRandomNumber
+
+
+Algo : MultiplyTheModulo
+
+firstRandomNumber: integer
+secondRandomNumber: integer
+result: integer
+multipliedResult: integer
+
+result <- MakeAModulo(firstRandomNumber, secondRandomNumber)
+multipliedResult <- result*60
